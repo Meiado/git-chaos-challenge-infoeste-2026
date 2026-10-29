@@ -6,7 +6,11 @@ function subtracao(a, b) {
   return a - b;
 }
 
-function calcularTotal(preco, quantidade, frete) {
+function calcularTotal(preco, quantidade, desconto) {
+  return preco * quantidade * (1 - desconto);
+}
+
+  function calcularTotal(preco, quantidade, frete) {
   return preco * quantidade + frete;
 }
 
