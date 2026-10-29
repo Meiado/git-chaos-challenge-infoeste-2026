@@ -2,5 +2,7 @@
   "moeda": "BRL",
   "casasDecimais": 2,
   "limiteParcelas": 6,
-  "descontoMaximo": 0.3
+  "descontoMaximo": 0.3,
+  "taxaFrete": 10
+
 }
