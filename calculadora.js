@@ -6,8 +6,8 @@ function subtracao(a, b) {
   return a - b;
 }
 
-function calcularTotal(preco, quantidade) {
-  return preco * quantidade;
+function calcularTotal(preco, quantidade, frete) {
+  return preco * quantidade + frete;
 }
 
 module.exports = { soma, subtracao, calcularTotal };
